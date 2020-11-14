@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_vegetable"
+        android:icon="@drawable/vegetable"
+        android:orderInCategory="100"
+        android:title="@string/f10200_n001" />
+
+    <item
+        android:id="@+id/navigation_poultry"
+        android:icon="@drawable/animals"
+        android:orderInCategory="200"
+        android:title="@string/f10200_n002" />
+
+    <item
+        android:id="@+id/navigation_fish"
+        android:icon="@drawable/fish"
+        android:orderInCategory="300"
+        android:title="@string/f10200_n003" />
+
+</menu>

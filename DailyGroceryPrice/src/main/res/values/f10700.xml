@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="f10700_t001">我的帳號</string>
+    <string name="f10700_t002">說明</string>
+    <string name="f10700_b001">會員資料</string>
+    <string name="f10701_1_b001">會員資料修改</string>
+    <string name="f10700_b002">升級白金會員</string>
+    <string name="f10700_b003">寫食譜</string>
+    <string name="f10700_b004">食譜草稿</string>
+    <string name="f10700_b005">市場回應</string>
+    <string name="f10700_b006">粉絲團</string>
+    <string name="f10700_b007">常見問題</string>
+    <string name="f10700_b008">通知設定</string>
+    <string name="f10700_b009">問題回報</string>
+    <string name="f10700_b010">登出</string>
+
+
+
+    <string-array name="f10701_a001">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+
+    <string name="f10701_f000">建議您</string>
+    <string name="nospace">請勿輸入空白</string>
+    <string name="zero">0</string>
+    <string name="f10701_b001">確認修改資料</string>
+    <string name="f10701_b002">取消修改資料</string>
+    <string name="f10701_t001">姓名:</string>
+    <string name="f10701_t002">性別:</string>
+    <string name="f10701_t003">生日:</string>
+    <string name="f10701_t004">年齡:</string>
+    <string name="f10701_t005">地址:</string>
+    <string name="f10701_t006">Email:</string>
+    <string name="f10701_t007">手機號碼:</string>
+    <string name="f10701_t008">FB:</string>
+    <string name="n_yy">年</string>
+    <string name="n_mm">月</string>
+    <string name="n_dd">日</string>
+
+    <string name="f10702_e001">新密碼</string>
+    <string name="f10702_e002">再次輸入新密碼</string>
+
+
+
+    <string name="chk01">男</string>
+    <string name="chk02">女</string>
+    <string name="F10701_datetitle">選擇日期:</string>
+    <string name="age">歲</string>
+    <string name="f10700_b011">修改密碼</string>
+    <string name="f10702_b001">更改密碼</string>
+    <string name="updatepassword">確定要更改密碼嗎?</string>
+    <string name="updatepassword1">更改密碼</string>
+    <string name="yes">是</string>
+    <string name="f10702_t003">您的兩組密碼不相符</string>
+    <string name="updatemember">更改會員資料</string>
+    <string name="updatemember1">確定要更改會員資料嗎?</string>
+
+</resources>

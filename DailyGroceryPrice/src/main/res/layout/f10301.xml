@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none">
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        app:menu="@menu/nav_food">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#FFFFFF"
+        app:menu="@menu/menu_navigation">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_navigation"
+        android:layout_below="@id/nav_view"
+        android:background="#0C000000"
+        android:orientation="vertical"
+        android:padding="@dimen/pa_10">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/f10301_t002"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="@string/f10301_t002"
+                android:textColor="@color/Black"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/f10301_e001"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_below="@+id/f10301_t002"
+                android:layout_marginStart="@dimen/mar_10"
+                android:layout_marginTop="0dp"
+                android:background="@color/Aqua"
+                android:ems="10"
+                android:hint="@string/f10301_t014"
+                android:inputType="number" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/f10301_t003"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/f10301_e001"
+                android:layout_marginTop="10dp"
+                android:text="@string/f10301_t003"
+                android:textColor="@color/Black"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/f10301_e002"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_below="@+id/f10301_t003"
+                android:layout_alignStart="@+id/f10301_t003"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/Aqua"
+                android:ems="10"
+                android:hint="@string/f10301_t015"
+                android:inputType="number" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/f10301_t004"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/f10301_e002"
+                android:layout_marginTop="10dp"
+                android:text="@string/f10301_t004"
+                android:textColor="@color/Black"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/f10301_e003"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_alignStart="@+id/f10301_t004"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/Aqua"
+                android:ems="10"
+                android:hint="@string/f10301_t016"
+                android:inputType="number" />
+        </TableRow>
+
+        <TextView
+            android:id="@+id/f10301_t005"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/f10301_e003"
+            android:layout_marginTop="10dp"
+            android:text="@string/f10301_t005"
+            android:textColor="@color/Black" />
+
+        <RadioGroup
+            android:id="@+id/radiogroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checkedButton="@id/f10301_rb001">
+
+            <TextView
+                android:id="@+id/f10301_t008"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/mar_10"
+                android:text="@string/f10301_t008"
+                android:textColor="@color/Black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/f10301_rb001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/f10301_rb001" />
+
+            <RadioButton
+                android:id="@+id/f10301_rb002"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/f10301_rb002" />
+
+            <RadioButton
+                android:id="@+id/f10301_rb003"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/f10301_rb003" />
+
+            <RadioButton
+                android:id="@+id/f10301_rb004"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/f10301_rb004" />
+
+            <RadioButton
+                android:id="@+id/f10301_rb005"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/f10301_rb005" />
+        </RadioGroup>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/mar_05">
+
+            <Button
+                android:id="@+id/f10301_b001"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/f10301_b001" />
+
+            <Button
+                android:id="@+id/f10301_b002"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/f10301_b002" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/f10301_t009"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/f10301_t006"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/f10301_t007"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_below="@+id/f10301_t005"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="0dp"
+                android:background="@color/White" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/f10301_t006"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/f10301_t009"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/f10301_t010"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_below="@+id/f10301_t005"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="0dp"
+                android:background="@color/White" />
+        </TableRow>
+
+        <TextView
+            android:id="@+id/f10301_t011"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/f10301_t010"
+            android:textColor="@color/Black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/f10301_t012"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Blue"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

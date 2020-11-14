@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0C000000"
+    android:visibility="visible">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#0C000000"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/f10701list_t001"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/f10701list_b001"
+            android:layout_marginStart="@dimen/mar_15"
+            android:layout_marginTop="@dimen/mar_10"
+            android:layout_marginBottom="0dp"
+            android:gravity="fill_vertical"
+            android:text="@string/f10700_b001"
+            android:textColor="@color/Teal"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <ScrollView
+            android:id="@+id/sc01"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:visibility="visible">
+
+
+                <TextView
+                    android:id="@+id/f10701_t001"
+                    android:layout_width="120dp"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="@dimen/mar_15"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/button03"
+                    android:gravity="center_vertical"
+                    android:paddingStart="@dimen/mar_10"
+                    android:text="@string/f10701_t001"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/f10701_e001"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_alignTop="@+id/f10701_t001"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="@dimen/mar_15"
+                    android:layout_toEndOf="@+id/f10701_t001"
+                    android:autofillHints=""
+                    android:background="@drawable/button03"
+                    android:ems="10"
+                    android:gravity="center_vertical"
+                    android:inputType="textWebEditText"
+                    android:paddingStart="@dimen/mar_10"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/f10701_t002"
+                    android:layout_width="120dp"
+                    android:layout_height="45dp"
+                    android:layout_below="@+id/f10701_e001"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="@dimen/mar_15"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button03"
+                    android:gravity="center_vertical"
+                    android:paddingStart="@dimen/mar_10"
+                    android:text="@string/f10701_t002"
+                    android:textSize="16sp" />
+
+                <RadioGroup
+                    android:id="@+id/f10701_r001"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_alignTop="@+id/f10701_t002"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="@dimen/mar_15"
+                    android:layout_toEndOf="@+id/f10701_t002"
+                    android:background="@drawable/button03"
+                    android:gravity="center_vertical|end"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/f10701_r001a"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="@string/chk01"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/f10701_r001b"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/chk02"
+                        android:textSize="16sp" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/f10701_t003"
+                    android:layout_width="120dp"
+                    android:layout_height="45dp"
+                    android:layout_below="@+id/f10701_t002"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="@dimen/mar_15"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button03"
+                    android:gravity="center_vertical"
+                    android:paddingStart="@dimen/mar_10"
+                    android:text="@string/f10701_t003"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/f10701_e003"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_alignTop="@+id/f10701_t003"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="@dimen/mar_15"
+                    android:layout_toEndOf="@+id/f10701_t003"
+                    android:background="@drawable/button03"
+                    android:ems="10"
+                    android:gravity="center_vertical"
+                    android:importantForAutofill="no"
+                    android:inputType="date"
+                    android:paddingStart="@dimen/mar_10"
+                    android:textSize="16sp"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/f10701_t004"
+                    android:layout_width="120dp"
+                    android:layout_height="45dp"
+                    android:layout_below="@+id/f10701_t003"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="@dimen/mar_15"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button03"
+                    android:gravity="center_vertical"
+                    android:paddingStart="@dimen/mar_10"
+                    android:text="@string/f10701_t004"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/f10701_e004"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_alignTop="@+id/f10701_t004"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="@dimen/mar_15"
+                    android:layout_toEndOf="@+id/f10701_t004"
+                    android:background="@drawable/button03"
+                    android:ems="10"
+                    android:gravity="center_vertical"
+                    android:importantForAutofill="no"
+                    android:inputType="numberDecimal"
+                    android:paddingStart="@dimen/mar_10"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/f10701_t005"
+                    android:layout_width="120dp"
+                    android:layout_height="45dp"
+                    android:layout_below="@+id/f10701_t004"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="@dimen/mar_15"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button03"
+                    android:gravity="center_vertical"
+                    android:paddingStart="@dimen/mar_10"
+                    android:text="@string/f10701_t005"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/f10701_e005"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_alignTop="@+id/f10701_t005"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="@dimen/mar_15"
+                    android:layout_toEndOf="@+id/f10701_t005"
+                    android:background="@drawable/button03"
+                    android:ems="10"
+                    android:gravity="center_vertical"
+                    android:inputType="textPostalAddress"
+                    android:paddingStart="@dimen/mar_10"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/f10701_t006"
+                    android:layout_width="120dp"
+                    android:layout_height="45dp"
+                    android:layout_below="@+id/f10701_t005"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button03"
+                    android:gravity="center_vertical"
+                    android:paddingStart="@dimen/mar_10"
+                    android:text="@string/f10701_t006"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/f10701_e006"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_alignTop="@+id/f10701_t006"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="@dimen/mar_15"
+                    android:layout_toEndOf="@+id/f10701_t006"
+                    android:background="@drawable/button03"
+                    android:ems="10"
+                    android:gravity="center_vertical"
+                    android:inputType="textEmailAddress"
+                    android:paddingStart="@dimen/mar_10"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/f10701_t007"
+                    android:layout_width="120dp"
+                    android:layout_height="45dp"
+                    android:layout_below="@+id/f10701_t006"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button03"
+                    android:gravity="center_vertical"
+                    android:paddingStart="@dimen/mar_10"
+                    android:text="@string/f10701_t007"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/f10701_e007"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_alignTop="@+id/f10701_t007"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="@dimen/mar_15"
+                    android:layout_toEndOf="@+id/f10701_t002"
+                    android:background="@drawable/button03"
+                    android:ems="10"
+                    android:gravity="center_vertical"
+                    android:inputType="phone"
+                    android:paddingStart="@dimen/mar_10"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/f10701_t008"
+                    android:layout_width="120dp"
+                    android:layout_height="45dp"
+                    android:layout_below="@+id/f10701_t007"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button03"
+                    android:gravity="center_vertical"
+                    android:paddingStart="@dimen/mar_10"
+                    android:text="@string/f10701_t008"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/f10701_e008"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_alignTop="@+id/f10701_t008"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="@dimen/mar_15"
+                    android:layout_toEndOf="@+id/f10701_t008"
+                    android:background="@drawable/button03"
+                    android:ems="10"
+                    android:gravity="center_vertical"
+                    android:importantForAutofill="no"
+                    android:inputType="textWebEditText"
+                    android:paddingStart="@dimen/mar_10"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/f10701_btnOK"
+                    android:layout_width="150dp"
+                    android:layout_height="45dp"
+                    android:layout_below="@+id/f10701_t008"
+                    android:layout_alignStart="@+id/f10701_t007"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/button04"
+                    android:text="@string/f10701_b001"
+                    android:textColor="@color/White"
+                    android:textSize="16sp"
+                    android:textStyle="bold|italic" />
+
+                <Button
+                    android:id="@+id/f10701_btnCancel"
+                    android:layout_width="150dp"
+                    android:layout_height="45dp"
+                    android:layout_alignTop="@+id/f10701_btnOK"
+                    android:layout_alignEnd="@+id/f10701_e007"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="15dp"
+                    android:background="@drawable/button03"
+                    android:text="@string/f10701_b002"
+                    android:textColor="@color/Teal"
+                    android:textSize="16sp"
+                    android:textStyle="bold|italic" />
+            </RelativeLayout>
+        </ScrollView>
+
+        <ListView
+            android:id="@+id/F10701_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/f10701list_b001"
+            android:layout_marginTop="10dp"
+            android:visibility="gone">
+
+        </ListView>
+
+        <Button
+            android:id="@+id/f10701list_b001"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="@dimen/mar_10"
+            android:layout_marginEnd="@dimen/mar_15"
+            android:background="@drawable/button04"
+            android:padding="@dimen/mar_10"
+            android:text="@string/f10701_1_b001"
+            android:textColor="@color/Teal"
+            android:textSize="14sp"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/mRelative_dlg"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/White"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/f10701_btncel"
+            android:layout_width="120dp"
+            android:layout_height="45dp"
+            android:layout_alignTop="@+id/f10701_btnOK2"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button04"
+            android:text="@string/f10701_b002"
+            android:textColor="@color/White"
+            android:textSize="14sp"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:id="@+id/dlg_e001"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/dlg_t001"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="@dimen/mar_15"
+            android:background="@drawable/button03"
+            android:ems="10"
+            android:gravity="center_vertical"
+            android:hint="@string/f00001_t001"
+            android:inputType="textEmailAddress"
+            android:paddingStart="@dimen/mar_10"
+            android:textColor="@color/Teal"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/f10701_btnOK2"
+            android:layout_width="120dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/dlg_e001"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button04"
+            android:text="@string/f10701_b001"
+            android:textColor="@color/White"
+            android:textSize="14sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/dlg_t001"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/Teal"
+            android:gravity="center_vertical"
+            android:padding="15dp"
+            android:text="@string/f10701_1_b001"
+            android:textColor="@color/White"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

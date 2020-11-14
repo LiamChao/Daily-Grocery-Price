@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--  Padding  -->
+    <dimen name="pa_05">5dp</dimen>
+    <dimen name="pa_10">10dp</dimen>
+    <dimen name="pa_15">15dp</dimen>
+    <dimen name="pa_20">20dp</dimen>
+    <dimen name="pa_25">25dp</dimen>
+    <dimen name="pa_30">30dp</dimen>
+    <dimen name="pa_35">35dp</dimen>
+    <dimen name="pa_60">60dp</dimen>
+    <dimen name="pa_100">100dp</dimen>
+<!--  Margin  -->
+    <dimen name="mar_05">5dp</dimen>
+    <dimen name="mar_10">10dp</dimen>
+    <dimen name="mar_15">15dp</dimen>
+    <dimen name="mar_20">20dp</dimen>
+    <dimen name="mar_25">25dp</dimen>
+    <dimen name="mar_30">30dp</dimen>
+    <dimen name="mar_35">35dp</dimen>
+    <dimen name="mar_60">60dp</dimen>
+    <dimen name="mar_100">100dp</dimen>
+</resources>

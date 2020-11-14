@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="f10301_gender">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+
+    <string name="f10301_t001">性別</string>
+    <string name="f10301_t002">年齡(歲)</string>
+    <string name="f10301_t003">身高(公分)</string>
+    <string name="f10301_t004">體重(公斤)</string>
+    <string name="f10301_t005">計算BMR前需要先輸入上面年齡、身高及體重。</string>
+    <string name="f10301_t006">您的基礎代謝率 (BMR)</string>
+    <string name="f10301_b001">男性指數</string>
+    <string name="f10301_b002">女性指數</string>
+    <string name="f10301_t008">活動量</string>
+    <string name="f10301_t009">每日總消耗熱量(TDEE)</string>
+    <string name="f10301_t010">建議</string>
+    <string name="f10301_e001">輸入值不得為0</string>
+    <string name="f10301_e002">欄位不得為空白</string>
+    <string name="f10301_t011">您的基礎代謝率過低，請多運動提高基礎代謝率</string>
+    <string name="f10301_t012">您的基礎代謝率符合一般標準，請繼續維持</string>
+    <string name="f10301_t013">您的基礎代謝率優於一般標準，非常棒</string>
+    <string name="f10301_t014">請輸入年齡</string>
+    <string name="f10301_t015">請輸入身高</string>
+    <string name="f10301_t016">請輸入體重</string>
+    <string name="f10301_rb001">久坐 (很少或幾乎沒運動/辦公室工作)</string>
+    <string name="f10301_rb002">輕量活動 (每周運動1-3天)</string>
+    <string name="f10301_rb003">中度活動量 (每周運動3-5天)</string>
+    <string name="f10301_rb004">高度活動量 (每周運動6-7天)</string>
+    <string name="f10301_rb005">勞力密集工作或是每天高強度訓練</string>
+
+</resources>

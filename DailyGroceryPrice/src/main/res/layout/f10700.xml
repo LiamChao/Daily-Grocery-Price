@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0C000000"
+    android:padding="@dimen/pa_15">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/f10700_t001"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center|start"
+                android:paddingStart="@dimen/pa_10"
+                android:text="@string/f10700_t001"
+                android:textColor="@color/Black"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/f10700_b001"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/White"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/mar_10"
+                android:text="@string/f10700_b001"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/f10700_b002"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0.5dp"
+                android:background="@color/White"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/mar_10"
+                android:text="@string/f10700_b002"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/f10700_b003"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0.5dp"
+                android:background="@color/White"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/mar_10"
+                android:text="@string/f10700_b003"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/f10700_b004"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0.5dp"
+                android:background="@color/White"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/mar_10"
+                android:text="@string/f10700_b004"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/f10700_b005"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0.5dp"
+                android:background="@color/White"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/mar_10"
+                android:text="@string/f10700_b006"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/f10700_b011"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0.5dp"
+                android:background="@color/White"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/mar_10"
+                android:text="@string/f10700_b011"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/f10700_t002"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="@dimen/pa_20"
+                android:gravity="center|start"
+                android:paddingStart="@dimen/pa_10"
+                android:text="@string/f10700_t002"
+                android:textColor="@color/Black"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/f10700_b006"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0.5dp"
+                android:background="@color/White"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/mar_10"
+                android:text="@string/f10700_b007"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/f10700_b007"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0.5dp"
+                android:background="@color/White"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/mar_10"
+                android:text="@string/f10700_b008"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/f10700_b008"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0.5dp"
+                android:background="@color/White"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/mar_10"
+                android:text="@string/f10700_b009"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/f10700_b009"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/mar_60"
+                android:background="@color/White"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/mar_10"
+                android:text="@string/f10700_b010"
+                android:textSize="16sp"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

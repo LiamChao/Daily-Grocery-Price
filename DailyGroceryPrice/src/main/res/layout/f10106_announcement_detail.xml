@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0c000000"
+    android:padding="@dimen/pa_10">
+
+
+    <TextView
+        android:id="@+id/f10106_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="@string/f10103_title"
+        android:textColor="@color/Navy"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/f10106_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/f10106_title"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="@dimen/mar_30"
+        android:gravity="end"
+        android:text="TextView"
+        android:textColor="@color/Purple"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/f10106_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/f10106_date"
+        android:layout_marginTop="@dimen/mar_30"
+        android:text="TextView"
+        android:textColor="@color/Maroon"
+        android:textSize="14sp" />
+
+</RelativeLayout>

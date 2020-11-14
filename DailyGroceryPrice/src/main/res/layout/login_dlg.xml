@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@color/backgroundcolor2">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="0dp"
+        android:background="@color/Teal"
+        android:gravity="center_vertical"
+        android:paddingStart="@dimen/mar_15"
+        android:text="@string/f00001_title"
+        android:textColor="@color/White"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:shadowColor="@color/Black"
+        android:text="@string/f00001_t003"
+        android:textColor="#FF5722" />
+
+    <EditText
+        android:id="@+id/f00001_e001"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/title"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="@dimen/mar_15"
+        android:background="@drawable/button03"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:hint="@string/f00001_t001"
+        android:inputType="textEmailAddress"
+        android:paddingStart="@dimen/mar_10"
+        android:textColor="@color/Teal"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/f00001_e002"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/f00001_e001"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="@dimen/mar_15"
+        android:background="@drawable/button03"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:hint="@string/f00001_t002"
+        android:inputType="textPassword"
+        android:paddingStart="@dimen/mar_10"
+        android:textColor="@color/Black"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/f00001_btnOK"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/f00001_e002"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button04"
+        android:text="@string/f00001_b001"
+        android:textColor="@color/White"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/f00001_btnCancel"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/f00001_e002"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/button03"
+        android:text="@string/f00001_b002"
+        android:textColor="@color/Teal"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+</RelativeLayout>

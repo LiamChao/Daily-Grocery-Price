@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundcolor2"
+    android:orientation="vertical"
+    android:padding="@dimen/pa_15"
+    android:visibility="visible">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="370dp"
+        android:layout_height="250dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/f00000_b001"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button04"
+        android:text="@string/f00000_b001"
+        android:textAllCaps="false"
+        android:textColor="@color/White"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/f00000_b002"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/f00000_b001"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:id="@+id/f00000_b003"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/f00000_b002"
+        android:layout_alignStart="@+id/f00000_b002"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button03"
+        android:text="@string/f00000_b004"
+        android:textAllCaps="false"
+        android:textColor="@color/Teal"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

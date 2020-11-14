@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="f10201_t001">白肉雞\n(2.0Kg以上)</string>
+    <string name="f10201_t002">白肉雞\n(1.75-1.95Kg)</string>
+    <string name="f10201_t003">白肉雞\n(門市價)</string>
+    <string name="f10201_t004">雞蛋\n(產地)</string>
+    <string name="f10201_t005">交易日期</string>
+    <string name="f10201_contentdes">讀取中</string>
+</resources>

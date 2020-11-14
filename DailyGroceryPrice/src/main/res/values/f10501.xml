@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="f10501_t001">食譜名稱:</string>
+    <string name="f10501_t002">簡介:</string>
+    <string name="f10501_t003">食材:</string>
+    <string name="f10501_t004">份量:</string>
+    <string name="f10501_b001">取消</string>
+    <string name="f10501_t005">步驟1:</string>
+    <string name="f10501_b002">確定</string>
+    <string name="f10501_t006">步驟2:</string>
+    <string name="f10501_t007">步驟3:</string>
+    <string name="f10501_t008">步驟4:</string>
+    <string name="f10501_t009">步驟5:</string>
+    <string name="f10501_t010">步驟6:</string>
+</resources>

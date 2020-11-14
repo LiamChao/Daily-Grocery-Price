@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--    <item-->
+    <!--        android:id="@+id/Home"-->
+    <!--        android:title="主頁"-->
+    <!--        android:icon="@drawable/home"/>-->
+
+    <item
+        android:id="@+id/News"
+        android:icon="@drawable/newspaper1"
+        android:orderInCategory="300"
+        android:title="新聞" />
+
+    <item
+        android:id="@+id/Price"
+        android:icon="@drawable/price1"
+        android:orderInCategory="100"
+        android:title="價格" />
+
+    <item
+        android:id="@+id/Food"
+        android:icon="@drawable/fork1"
+        android:orderInCategory="200"
+        android:title="營養" />
+
+    <item
+        android:id="@+id/Market"
+        android:icon="@drawable/pin1"
+        android:orderInCategory="500"
+        android:title="市場" />
+
+
+    <item
+        android:id="@+id/Book"
+        android:icon="@drawable/recipe1"
+        android:orderInCategory="400"
+        android:title="食譜" />
+
+</menu>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="f10100_b001">農業新聞</string>
+    <string name="f10100_b002">系統公告</string>
+
+
+    <string name="f10100_descr">說明</string>
+    <string name="f10100_t001">選擇:</string>
+    <string name="f10101_title">標題</string>
+    <string name="f10101_pub">發佈時間</string>
+
+    <!--    新聞詳細內文-->
+    <string name="f10103_title">標題</string>
+    <string name="f10103_content">內文</string>
+    <string name="f10103_readOpenData">連結中..</string>
+    <string name="onBackPressed">請按右上結束鍵</string>
+    <string name="f10103_url">超連結</string>
+    <string name="update_time">"上次更新時間: "</string>
+</resources>

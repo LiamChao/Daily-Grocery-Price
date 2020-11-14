@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="f10200_t001">作物</string>
+    <string name="f10200_t002">市場</string>
+    <string name="f10200_t003">平均價</string>
+    <string name="f10200_t004">交易日期</string>
+    <string name="f10200_n001">農產品</string>
+    <string name="f10200_n002">白肉雞/雞蛋</string>
+    <string name="f10200_n003">漁產</string>
+    <string name="f10200_contentdes">讀取中</string>
+</resources>

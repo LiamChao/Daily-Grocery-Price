@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/White"
+    android:orientation="vertical"
+    tools:ignore="MissingDefaultResource">
+
+    <TextView
+        android:id="@+id/f10500_t001"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="@dimen/mar_05"
+        android:gravity="fill_vertical"
+        android:text="@string/f10500_b001"
+        android:textColor="@color/Teal"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/f10500_t002"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/f10500_b001"
+        android:textColor="@color/Teal"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/f10500_t003"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/f10500_b001"
+        android:textColor="@color/Teal"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/f10500_t004"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/f10500_b001"
+        android:textColor="@color/Teal"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+</LinearLayout>

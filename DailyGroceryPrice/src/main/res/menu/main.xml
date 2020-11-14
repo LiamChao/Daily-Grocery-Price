@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/changemember"
+        android:title="@string/f10701_1_b001"
+        android:visible="false"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menuItemAbout"
+        android:orderInCategory="450"
+        android:title="@string/title"
+        android:visible="false" />
+    <group
+        android:id="@+id/m_g01"
+        android:visible="false">
+        <!--        <item-->
+        <!--            android:id="@+id/Item3"-->
+        <!--            android:orderInCategory="300"-->
+        <!--            android:title="@string/f00000_i003" />-->
+        <!--        <item-->
+        <!--            android:id="@+id/Item2"-->
+        <!--            android:orderInCategory="200"-->
+        <!--            android:title="@string/f00000_i002" />-->
+        <item
+            android:id="@+id/Item1"
+            android:orderInCategory="100"
+            android:title="@string/f00000_i001" />
+    </group>
+    <group
+        android:id="@+id/m_g02"
+        android:visible="false">
+        <item
+            android:id="@+id/Item4"
+            android:orderInCategory="400"
+            android:title="@string/f00000_i004" />
+        <item
+            android:id="@+id/Item5"
+            android:orderInCategory="500"
+            android:title="@string/f00000_i005" />
+    </group>
+    <item
+        android:id="@+id/fans"
+        android:orderInCategory="440"
+        android:title="@string/f00000_i006"
+        android:visible="false" />
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:orderInCategory="999"
+        android:title="@string/action_settings"
+        android:visible="false"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/f10501_main"
+        android:title="@string/f10501_main"
+        android:visible="false"
+        app:showAsAction="always" />
+</menu>

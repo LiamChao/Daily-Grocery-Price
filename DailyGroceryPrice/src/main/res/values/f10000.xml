@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="f10000_t001">最新消息</string>
+    <string name="f10000_t002">最新價格</string>
+    <string name="f10000_t003">營養資訊</string>
+    <string name="f10000_t004">附近市場</string>
+    <string name="f10000_t005">健康食譜</string>
+    <string name="f10000_t006">社群分享</string>
+    <string name="f10000_t007">會員資料</string>
+</resources>

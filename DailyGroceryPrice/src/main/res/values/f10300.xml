@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="f10300_t001">食品名稱</string>
+    <string name="f10300_t002">分析項</string>
+    <string name="f10300_t003">每100克含量</string>
+    <string name="f10300_t004">內容物描述</string>
+    <string name="navigation_food">食品營養</string>
+    <string name="navigation_bmr">TDEE計算</string>
+</resources>

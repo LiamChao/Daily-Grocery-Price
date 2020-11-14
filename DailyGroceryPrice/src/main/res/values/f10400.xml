@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="f10400_s001">
+        <item>市場名稱</item>
+        <item>住址</item>
+        <item>電話</item>
+
+    </string-array>
+    <string name="f10400_b001">市場</string>
+
+
+    <string name="map_not_ready">Map 設置未完成</string>
+
+</resources>

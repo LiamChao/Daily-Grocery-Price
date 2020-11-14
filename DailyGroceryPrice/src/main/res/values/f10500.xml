@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="f10500_s001">
+        <item>最新食譜</item>
+        <item>熱門食譜</item>
+        <item>台式料理</item>
+        <item>日式料理</item>
+        <item>泰式料理</item>
+        <item>港式料理</item>
+        <item>韓式料理</item>
+        <item>客家料理</item>
+        <item>烘焙點心</item>
+    </string-array>
+
+
+    <string name="f10500_t001">食譜名稱:</string>
+    <string name="f10500_t002">作者:</string>
+    <string name="f10500_t003">簡介:</string>
+    <string name="f10500_t004">食材:</string>
+    <string name="f10500_b001">新增食譜</string>
+
+    <string name="f10501_main">新增食譜</string>
+</resources>

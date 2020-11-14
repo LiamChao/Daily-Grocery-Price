@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tw.tcnr109a05.grocery">
+
+    <!--    <permission-->
+    <!--        android:name="tw.tcnr109a05.grocery.providers.READ_PERMISSION"-->
+    <!--        android:protectionLevel="signature" />-->
+    <!--    <permission-->
+    <!--        android:name="tw.tcnr109a05.grocery.providers.WRITE_PERMISSION"-->
+    <!--        android:protectionLevel="signature" />-->
+
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_logo1_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+
+        <activity
+            android:name=".Boot_Animation"
+            android:screenOrientation="locked">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".F000" />
+        <activity android:name=".F10200"></activity>
+        <activity android:name=".F10100"></activity>
+        <activity android:name=".F10101_news"></activity>
+        <activity android:name=".F10102_announcement"></activity>
+        <activity android:name=".F10300"></activity>
+        <activity android:name=".F10301"></activity>
+        <activity android:name=".F10400"></activity>
+        <activity android:name=".F10502"></activity>
+        <activity android:name=".F10600"></activity>
+        <activity android:name=".F10700"></activity>
+        <activity android:name=".F10701"></activity>
+        <activity android:name=".F10702"></activity>
+        <activity android:name=".F00000"></activity>
+        <activity android:name=".F10201"></activity>
+        <activity android:name=".F10202"></activity>
+        <activity android:name=".F10500"></activity>
+
+        <provider
+            android:name=".providers.FriendsContentProvider"
+            android:authorities="tw.tcnr109a05.grocery"
+            android:exported="false"
+            android:readPermission="tw.tcnr109a05.grocery.READ_PERMISSION"
+            android:writePermission="tw.tcnr109a05.grocery.WEITE_PERMISSION"></provider>
+
+
+        <provider
+            android:name=".providers.FriendsContentProvider_F10202"
+            android:authorities="tw.tcnr109a05.grocery.f10202"
+            android:exported="false"
+            android:readPermission="tw.tcnr109a05.grocery.READ_PERMISSION"
+            android:writePermission="tw.tcnr109a05.grocery.WEITE_PERMISSION"></provider>
+    </application>
+
+</manifest>
