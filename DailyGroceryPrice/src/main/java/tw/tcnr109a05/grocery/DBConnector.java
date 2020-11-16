@@ -35,22 +35,9 @@ public class DBConnector {
     static String line = null;
     static int code;
     static String mysql_code = null;
-//    static String connect_ip = "https://109atcnr15.000webhostapp.com/android_mysql_connect/";
 
-    //-------localhost-------
-//        static String connect_ip ="http://192.168.0.88/android_mysql_connect/"; //localhost
-//-----------班長--------
-//            static String connect_ip = "https://109atcnr01.000webhostapp.com/android_mysql_connect/";
-//-----------01--------
-//            static String connect_ip =" https://109atcnr02.000webhostapp.com/android_mysql_connect/";
-//-----------02--------
-//            static String connect_ip =" https://109atcnr05.000webhostapp.com/android_mysql_connect/";
-//-----------03--------
-//            static String connect_ip =  "http://oldpa88.000webhostapp.com/android_mysql_connect/";
-//-----------04--------
-    static String connect_ip = "https://109atcnr15.000webhostapp.com/android_mysql_connect/";
+    static String connect_ip = "";
 
-//    static String connect_ip = "http://192.168.60.14/android_mysql_connect/";
 
     //--------------------------------------
     public static String executeQuery(String query_string) {
