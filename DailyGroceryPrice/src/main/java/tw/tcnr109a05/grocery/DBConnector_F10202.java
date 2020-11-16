@@ -30,17 +30,7 @@ public class DBConnector_F10202 {
 
 
     //-------localhost-------
-    static String connect_ip = "https://109atcnr05.000webhostapp.com/android_mysql_connect/"; //localhost
-//-----------班長--------
-//            static String connect_ip = HttpPost("https://109atcnr01.000webhostapp.com/android_mysql_connect/");
-//-----------01--------
-//            static String connect_ip =HttpPost(" https://109atcnr02.000webhostapp.com/android_mysql_connect/");
-//-----------02--------
-//            static String connect_ip =HttpPost(" https://109atcnr05.000webhostapp.com/android_mysql_connect/");
-//-----------03--------
-//            static String connect_ip = HttpPost(" https://109atcnr26.000webhostapp.com/android_mysql_connect/");
-//-----------04--------
-//            static String connect_ip = HttpPost(" https://109atcnr28.000webhostapp.com/android_mysql_connect/");
+    static String connect_ip = ""; //localhost
 
     //--------------------------------------
     public static String executeQuery(String query_string) {
