@@ -1,0 +1,33 @@
+最新消息　F10100：撈取農委會Opendata，並把所需要之資訊呈現給使用者觀看；在撈取資料同時也將所需資料存取到SQLite，避免延誤再次讀取
+
+最新公告　F10101：藉由程式連接資料庫，並且讀取資料庫之公告，而公告是藉資料庫管理，當資料庫新增公告時，而手機也會同步更新
+
+農產品價格　F10200：1.串接農委會農產品交易行情opendata
+　　　　　　　　　　2.另外寫執行緒寫入SQLite
+　　　　　　　　　　3.每次點擊頁面就會就會讀取資料並比對陣列長度是否一致，若不一致則會清除SQLite並寫入最新資料
+
+白肉雞/雞蛋價格　F10201：1.串接農委會家禽交易行情(白肉雞/雞蛋)opendata
+　　　　　　　　　　　　　2.另外寫執行緒寫入SQLite
+　　　　　　　　　　　　　3.每次點擊頁面就會就會讀取資料並比對陣列長度是否一致，若不一致則會清除SQLite並寫入最新資料
+
+漁產價格　F10202：1.執行後端connection1.php串接農委會漁產品交易行情opendata，將資料寫入MySQL
+　　　　　　　　　2.DBConnector_F10202執行後端android_connect_db.php讀取MySQL資料，再藉由主程式寫入SQLite
+
+營養資訊　F10300：讀取json檔後，寫入SQLite
+
+TDEE計算器　F10301：根據使用者輸入資料計算，並根據條件判斷後提供建議結果
+
+市場資訊　F10400：使用google map v2，地圖可以顯示街道圖、衛星圖、地形圖、混合圖，連接台中市零售市場資料庫
+
+健康食譜　F10500：JAVA的F10500一次顯示三隻JAVA的畫面，先建立一個class，ViewPagerAdapter繼承FragmentPagerAdapter，設定上方滑動Title陣列的名稱為fragmentTitle
+	　F10501　畫面陣列的名稱為fragments，當需要新增一個畫面時使用方法addFragment(Fragment fragment, String title); 
+　　　　　F10502　此APP為新增三個畫面Fragment名稱分別為exploreFragment(F10501),flightsFragment,travelFragment以F10501的JAVA為例在onCreateView新增View v=inflater.inflate(R.layout.f10500,container,false);
+　　　　　　　　　當要找此畫面的物件時前方需加上v. 例:b001=(Button)v.findViewById(R.id.f10500_b001);並在最後return v;//以回傳此layout的畫面	
+	
+社群分享　F10600：連結自建的Facebook和官方網站
+
+Boot_Animation：開機畫面
+
+CircleImgView：google登入圓型頭像
+
+BottomNavigationHelper：BottomNavigation顯示文字
